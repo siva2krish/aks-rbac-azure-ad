@@ -11,9 +11,7 @@ To enable Azure Active Directory autorization with Kubernetes, you need to creat
 - A server application, that will work with Azure Active Directory
 - A client application, that will work with the server application
 
-Multiple AKS clusters can use the same server application, but it's recommended to have one client application per cluster.
-
-![Azure AD + AKS](assets/aks-ad-rbac-flow.jpg)
+Multiple AKS clusters can use the same server application, but it's recommended to have one client application per cluster
 
 ### Create the server application
 
